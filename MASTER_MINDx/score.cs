@@ -21,7 +21,7 @@ namespace MASTER_MINDx
         private void score_Load(object sender, EventArgs e)
         {
             string sCurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string score_txt = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\MASTER_MINDx_0.04\MASTER_MINDx\scoreboard.txt");
+            string score_txt = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\MASTER_MINDx-master\MASTER_MINDx\scoreboard.txt");
             string file_path = Path.GetFullPath(score_txt);
             
             //string file_path = @"C:\Users\Mateusz\Desktop\VisualStudio-programy\MASTER_MINDx_0.04\MASTER_MINDx\scoreboard.txt";
